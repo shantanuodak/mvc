@@ -24,7 +24,7 @@
     Create Date: <input type="text" name="createddate" value="<?php echo $data->createddate; ?>"><br>
     Due date : <input type="text" name="duedate" value="<?php echo $data->duedate; ?>"><br>
     Message: <input type="text" name="message" value="<?php echo $data->message; ?>"><br>
-    Status: <input type="text" name="status" value="<?php echo $data->status; ?>"><br>
+
 
     <input type="Submit" value="Submit form">
 </form>
