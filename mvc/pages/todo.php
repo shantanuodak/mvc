@@ -18,10 +18,10 @@
 <body>
 
 
-<form action="index.php?page=tods&action=register" method="post">
+<form action="index.php?page=todos&action=create" method="post">
     Owner Email: <input type="text" name="owneremail" value="<?php echo $data->owneremail; ?>" > <br>
     Owner Id: <input type="text" name="Ownerid" value="<?php echo  $data->ownerid; ?>"><br>
-    Create Date: <input type="text" name="createdate" value="<?php echo $data->createdate; ?>"><br>
+    Create Date: <input type="text" name="createddate" value="<?php echo $data->createddate; ?>"><br>
     Due date : <input type="text" name="duedate" value="<?php echo $data->duedate; ?>"><br>
     Message: <input type="text" name="message" value="<?php echo $data->message; ?>"><br>
     Status: <input type="text" name="status" value="<?php echo $data->status; ?>"><br>
